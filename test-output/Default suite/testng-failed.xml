@@ -3,17 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.testcases.TC01_LoginPageTest">
+      <class name="contactTests.CreateContactTest">
         <methods>
-          <include name="verifyLoginPage"/>
           <include name="bcConfig"/>
           <include name="bsConfig"/>
           <include name="acConfig"/>
           <include name="asConfig"/>
-          <include name="bmConfig"/>
-          <include name="amConfig"/>
+          <include name="CreateNewContactTest"/>
         </methods>
-      </class> <!-- com.vtiger.testcases.TC01_LoginPageTest -->
+      </class> <!-- contactTests.CreateContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
